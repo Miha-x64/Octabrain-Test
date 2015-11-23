@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Поиск картинок</string>
+
+    <string name="action_search">Искать</string>
+    <string name="action_delete">Удалить</string>
+
+    <string name="err_download_failed">Не удалось загрузить результаты поиска. Проверьте подключение.</string>
+    <string name="err_delete_failed">Невозможно удалить записи. Подождите пару секунд и попробуйте ещё раз.</string>
+    <string name="err_internal">Произошла внутренняя ошибка.</string>
+
+    <string name="info">Это приложение — тестовое задание для OctaBrain.\nМихаил Горюнов, 21–22 ноября 2015.</string>
+    <string name="sources">Исходники</string>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<net.aquadc.widgets.CheckableRelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:tag="odd"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="?attr/listPreferredItemHeight"
+    android:paddingLeft="?attr/listPreferredItemPaddingLeft"
+    android:paddingRight="?attr/listPreferredItemPaddingRight"
+    android:paddingStart="?attr/listPreferredItemPaddingLeft"
+    android:paddingEnd="?attr/listPreferredItemPaddingRight">
+
+    <net.aquadc.widgets.WebImageView android:id="@android:id/icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:maxWidth="@dimen/imageSize"
+        android:maxHeight="@dimen/imageSize"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter"
+        app:frameSize="20"
+        app:frameColor="#6000"/>
+
+    <CheckedTextView android:id="@android:id/text1"
+        android:layout_toRightOf="@android:id/icon"
+        android:layout_toEndOf="@android:id/icon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:textAppearance="?attr/textAppearanceListItem"
+        android:checkMark="?android:attr/listChoiceIndicatorMultiple" />
+
+</net.aquadc.widgets.CheckableRelativeLayout>
